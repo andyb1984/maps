@@ -136,4 +136,15 @@
         <script src="./resources/Autolinker.min.js"></script>
         <script src="./resources/qgis2web.js"></script>
     </body>
-</html>
+
+// Get a reference to the layer you want to control
+var witleyTopoLayer = map.getLayer('Witley_topo_3');
+var outcropLocationsLayer = map.getLayer('OutcropLocations_2021_03_24_4');
+var hampshireFootpathsLayer = map.getLayer('Hampshire_Footpathshccrow_5');
+var surreyFootpathsLayer = map.getLayer('Surrey_FootpathsRoW_2020_6');
+
+// Toggle visibility
+witleyTopoLayer.setVisible(false); // Make the Witley topo layer visible
+outcropLocationsLayer.setVisible(false); // Hide the outcrop locations layer
+hampshireFootpathsLayer.setVisible(false); // Make the Hampshire footpaths layer visible
+surreyFootpathsLayer.setVisible(false); // Hide the Surrey footpaths layer</html>
