@@ -1,11 +1,22 @@
-﻿body {
-	background-image: url('../Portfolio_draft/Images/IMG_0001.JPG');
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
-	
-}
-
+﻿body {
+
+	background-image: url('../Portfolio/Images/IMG_0001.JPG');
+
+	-moz-background-size: cover;
+
+	-webkit-background-size: cover;
+
+	background-size: cover;
+
+	background-position: top center !important;
+
+	background-repeat: no-repeat !important;
+
+	background-attachment: fixed;
+
+	
+
+}
+
+
+
